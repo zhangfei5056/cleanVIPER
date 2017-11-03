@@ -8,8 +8,6 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
-#import "LoginViewBuilder.h"
-#import "LoginViewBuilderProtocol.h"
 @interface AppDelegate ()
 
 @end
@@ -22,11 +20,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     RootViewController *vc = [[RootViewController alloc] init];
-    
-    id <LoginViewBuilderProtocol> delegate = [[LoginViewBuilder alloc] init];
-    
-    
-    [vc.view addSubview:[delegate buildView]];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

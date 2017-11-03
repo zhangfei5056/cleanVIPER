@@ -17,6 +17,8 @@
 		5F48185A1FAC56C5008AD021 /* LoginViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818501FAC568D008AD021 /* LoginViewBuilder.m */; };
 		5F48185B1FAC56D7008AD021 /* LoginViewInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818441FAC568D008AD021 /* LoginViewInteractor.m */; };
 		5F48185C1FAC56DC008AD021 /* LoginViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818481FAC568D008AD021 /* LoginViewPresenter.m */; };
+		5F4818611FAC5F59008AD021 /* LoginViewSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818601FAC5F59008AD021 /* LoginViewSDK.m */; };
+		5F4818651FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818641FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m */; };
 		5F8CCE4E1FAB705B0075AECE /* LoginViewInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CCE4D1FAB705B0075AECE /* LoginViewInteractorTests.m */; };
 		5F8CCE531FAB75FE0075AECE /* LoginViewPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CCE521FAB75FE0075AECE /* LoginViewPresenterTests.m */; };
 		5FD7D1BC1FAB36FE0004286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7D1BB1FAB36FE0004286E /* main.m */; };
@@ -42,6 +44,11 @@
 		5F4818521FAC568D008AD021 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		5F4818531FAC568D008AD021 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		5F48185D1FAC5722008AD021 /* LoginViewBuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewBuilderProtocol.h; path = ../LoginViewBuilderProtocol.h; sourceTree = "<group>"; };
+		5F48185F1FAC5F59008AD021 /* LoginViewSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewSDK.h; path = ../LoginViewSDK.h; sourceTree = "<group>"; };
+		5F4818601FAC5F59008AD021 /* LoginViewSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewSDK.m; path = ../LoginViewSDK.m; sourceTree = "<group>"; };
+		5F4818621FAC6319008AD021 /* RootViewControllerLoginViewSDKProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllerLoginViewSDKProtocol.h; sourceTree = "<group>"; };
+		5F4818631FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllerLoginViewSDKWrapper.h; sourceTree = "<group>"; };
+		5F4818641FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerLoginViewSDKWrapper.m; sourceTree = "<group>"; };
 		5F8CCE4D1FAB705B0075AECE /* LoginViewInteractorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewInteractorTests.m; sourceTree = "<group>"; };
 		5F8CCE521FAB75FE0075AECE /* LoginViewPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewPresenterTests.m; path = VIPERTests/LoginViewPresenterTests.m; sourceTree = SOURCE_ROOT; };
 		5FB4F8DC1FAB3C4D005674A2 /* VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,9 +184,14 @@
 		5FD7D1B91FAB36FE0004286E /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				5F48185F1FAC5F59008AD021 /* LoginViewSDK.h */,
+				5F4818601FAC5F59008AD021 /* LoginViewSDK.m */,
 				5F4818401FAC568D008AD021 /* LoginViewStory */,
 				5FD7D1BD1FAB36FE0004286E /* AppDelegate.h */,
 				5FD7D1BE1FAB36FE0004286E /* AppDelegate.m */,
+				5F4818621FAC6319008AD021 /* RootViewControllerLoginViewSDKProtocol.h */,
+				5F4818631FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.h */,
+				5F4818641FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m */,
 				5FD7D1EE1FAB373C0004286E /* RootViewController.h */,
 				5FD7D1EF1FAB373C0004286E /* RootViewController.m */,
 				5FD7D1C01FAB36FE0004286E /* Assets.xcassets */,
@@ -317,8 +329,10 @@
 				5F4818571FAC568D008AD021 /* LoginViewBuilder.m in Sources */,
 				5FD7D1BC1FAB36FE0004286E /* main.m in Sources */,
 				5FD7D1F81FAB373C0004286E /* RootViewController.m in Sources */,
+				5F4818651FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m in Sources */,
 				5F4818561FAC568D008AD021 /* Router.m in Sources */,
 				5F4818541FAC568D008AD021 /* LoginViewInteractor.m in Sources */,
+				5F4818611FAC5F59008AD021 /* LoginViewSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
