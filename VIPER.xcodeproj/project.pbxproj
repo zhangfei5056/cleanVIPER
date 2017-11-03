@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F48183F1FAC55F7008AD021 /* LoginViewBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48183E1FAC55F7008AD021 /* LoginViewBuilderTests.m */; };
 		5F4818541FAC568D008AD021 /* LoginViewInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818441FAC568D008AD021 /* LoginViewInteractor.m */; };
 		5F4818551FAC568D008AD021 /* LoginViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818481FAC568D008AD021 /* LoginViewPresenter.m */; };
 		5F4818561FAC568D008AD021 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48184C1FAC568D008AD021 /* Router.m */; };
@@ -17,10 +16,11 @@
 		5F48185A1FAC56C5008AD021 /* LoginViewBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818501FAC568D008AD021 /* LoginViewBuilder.m */; };
 		5F48185B1FAC56D7008AD021 /* LoginViewInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818441FAC568D008AD021 /* LoginViewInteractor.m */; };
 		5F48185C1FAC56DC008AD021 /* LoginViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818481FAC568D008AD021 /* LoginViewPresenter.m */; };
-		5F4818611FAC5F59008AD021 /* LoginViewSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818601FAC5F59008AD021 /* LoginViewSDK.m */; };
 		5F4818651FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818641FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m */; };
-		5F8CCE4E1FAB705B0075AECE /* LoginViewInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CCE4D1FAB705B0075AECE /* LoginViewInteractorTests.m */; };
-		5F8CCE531FAB75FE0075AECE /* LoginViewPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8CCE521FAB75FE0075AECE /* LoginViewPresenterTests.m */; };
+		5F48186C1FAC718F008AD021 /* LoginViewBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818691FAC718F008AD021 /* LoginViewBuilderTests.m */; };
+		5F48186D1FAC718F008AD021 /* LoginViewInteractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48186A1FAC718F008AD021 /* LoginViewInteractorTests.m */; };
+		5F48186E1FAC718F008AD021 /* LoginViewPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F48186B1FAC718F008AD021 /* LoginViewPresenterTests.m */; };
+		5F4818711FAC71D8008AD021 /* LoginViewSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4818701FAC71D8008AD021 /* LoginViewSDK.m */; };
 		5FD7D1BC1FAB36FE0004286E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7D1BB1FAB36FE0004286E /* main.m */; };
 		5FD7D1BF1FAB36FE0004286E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7D1BE1FAB36FE0004286E /* AppDelegate.m */; };
 		5FD7D1C11FAB36FE0004286E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD7D1C01FAB36FE0004286E /* Assets.xcassets */; };
@@ -29,7 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F48183E1FAC55F7008AD021 /* LoginViewBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewBuilderTests.m; sourceTree = "<group>"; };
 		5F4818431FAC568D008AD021 /* LoginViewInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewInteractor.h; sourceTree = "<group>"; };
 		5F4818441FAC568D008AD021 /* LoginViewInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewInteractor.m; sourceTree = "<group>"; };
 		5F4818461FAC568D008AD021 /* LoginViewOutputPresenterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewOutputPresenterProtocol.h; sourceTree = "<group>"; };
@@ -44,13 +43,14 @@
 		5F4818521FAC568D008AD021 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		5F4818531FAC568D008AD021 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		5F48185D1FAC5722008AD021 /* LoginViewBuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewBuilderProtocol.h; path = ../LoginViewBuilderProtocol.h; sourceTree = "<group>"; };
-		5F48185F1FAC5F59008AD021 /* LoginViewSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewSDK.h; path = ../LoginViewSDK.h; sourceTree = "<group>"; };
-		5F4818601FAC5F59008AD021 /* LoginViewSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewSDK.m; path = ../LoginViewSDK.m; sourceTree = "<group>"; };
 		5F4818621FAC6319008AD021 /* RootViewControllerLoginViewSDKProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllerLoginViewSDKProtocol.h; sourceTree = "<group>"; };
 		5F4818631FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllerLoginViewSDKWrapper.h; sourceTree = "<group>"; };
 		5F4818641FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerLoginViewSDKWrapper.m; sourceTree = "<group>"; };
-		5F8CCE4D1FAB705B0075AECE /* LoginViewInteractorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewInteractorTests.m; sourceTree = "<group>"; };
-		5F8CCE521FAB75FE0075AECE /* LoginViewPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewPresenterTests.m; path = VIPERTests/LoginViewPresenterTests.m; sourceTree = SOURCE_ROOT; };
+		5F4818691FAC718F008AD021 /* LoginViewBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewBuilderTests.m; sourceTree = "<group>"; };
+		5F48186A1FAC718F008AD021 /* LoginViewInteractorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewInteractorTests.m; sourceTree = "<group>"; };
+		5F48186B1FAC718F008AD021 /* LoginViewPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewPresenterTests.m; sourceTree = "<group>"; };
+		5F48186F1FAC71D8008AD021 /* LoginViewSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewSDK.h; sourceTree = "<group>"; };
+		5F4818701FAC71D8008AD021 /* LoginViewSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewSDK.m; sourceTree = "<group>"; };
 		5FB4F8DC1FAB3C4D005674A2 /* VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB4F8E01FAB3C4E005674A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FD7D1B71FAB36FE0004286E /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +85,8 @@
 		5F4818401FAC568D008AD021 /* LoginViewStory */ = {
 			isa = PBXGroup;
 			children = (
+				5F48186F1FAC71D8008AD021 /* LoginViewSDK.h */,
+				5F4818701FAC71D8008AD021 /* LoginViewSDK.m */,
 				5F4818411FAC568D008AD021 /* Enity */,
 				5F4818421FAC568D008AD021 /* Interactor */,
 				5F4818451FAC568D008AD021 /* Presenter */,
@@ -152,13 +154,21 @@
 			path = View/buider;
 			sourceTree = "<group>";
 		};
+		5F4818681FAC718F008AD021 /* LoginViewStoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F4818691FAC718F008AD021 /* LoginViewBuilderTests.m */,
+				5F48186A1FAC718F008AD021 /* LoginViewInteractorTests.m */,
+				5F48186B1FAC718F008AD021 /* LoginViewPresenterTests.m */,
+			);
+			path = LoginViewStoryTests;
+			sourceTree = "<group>";
+		};
 		5FB4F8DD1FAB3C4E005674A2 /* VIPERTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F4818681FAC718F008AD021 /* LoginViewStoryTests */,
 				5FB4F8E01FAB3C4E005674A2 /* Info.plist */,
-				5F48183E1FAC55F7008AD021 /* LoginViewBuilderTests.m */,
-				5F8CCE521FAB75FE0075AECE /* LoginViewPresenterTests.m */,
-				5F8CCE4D1FAB705B0075AECE /* LoginViewInteractorTests.m */,
 			);
 			path = VIPERTests;
 			sourceTree = "<group>";
@@ -184,8 +194,6 @@
 		5FD7D1B91FAB36FE0004286E /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				5F48185F1FAC5F59008AD021 /* LoginViewSDK.h */,
-				5F4818601FAC5F59008AD021 /* LoginViewSDK.m */,
 				5F4818401FAC568D008AD021 /* LoginViewStory */,
 				5FD7D1BD1FAB36FE0004286E /* AppDelegate.h */,
 				5FD7D1BE1FAB36FE0004286E /* AppDelegate.m */,
@@ -310,12 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F48186C1FAC718F008AD021 /* LoginViewBuilderTests.m in Sources */,
+				5F48186E1FAC718F008AD021 /* LoginViewPresenterTests.m in Sources */,
+				5F48186D1FAC718F008AD021 /* LoginViewInteractorTests.m in Sources */,
 				5F48185C1FAC56DC008AD021 /* LoginViewPresenter.m in Sources */,
 				5F48185B1FAC56D7008AD021 /* LoginViewInteractor.m in Sources */,
 				5F48185A1FAC56C5008AD021 /* LoginViewBuilder.m in Sources */,
-				5F48183F1FAC55F7008AD021 /* LoginViewBuilderTests.m in Sources */,
-				5F8CCE4E1FAB705B0075AECE /* LoginViewInteractorTests.m in Sources */,
-				5F8CCE531FAB75FE0075AECE /* LoginViewPresenterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +339,8 @@
 				5FD7D1F81FAB373C0004286E /* RootViewController.m in Sources */,
 				5F4818651FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m in Sources */,
 				5F4818561FAC568D008AD021 /* Router.m in Sources */,
+				5F4818711FAC71D8008AD021 /* LoginViewSDK.m in Sources */,
 				5F4818541FAC568D008AD021 /* LoginViewInteractor.m in Sources */,
-				5F4818611FAC5F59008AD021 /* LoginViewSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
