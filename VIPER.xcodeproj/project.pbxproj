@@ -43,7 +43,7 @@
 		5F4818521FAC568D008AD021 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		5F4818531FAC568D008AD021 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		5F48185D1FAC5722008AD021 /* LoginViewBuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewBuilderProtocol.h; path = ../LoginViewBuilderProtocol.h; sourceTree = "<group>"; };
-		5F4818621FAC6319008AD021 /* RootViewControllerLoginViewSDKProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllerLoginViewSDKProtocol.h; sourceTree = "<group>"; };
+		5F4818621FAC6319008AD021 /* LoginViewStoryWrapperProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewStoryWrapperProtocol.h; sourceTree = "<group>"; };
 		5F4818631FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllerLoginViewSDKWrapper.h; sourceTree = "<group>"; };
 		5F4818641FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerLoginViewSDKWrapper.m; sourceTree = "<group>"; };
 		5F4818691FAC718F008AD021 /* LoginViewBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewBuilderTests.m; sourceTree = "<group>"; };
@@ -164,6 +164,20 @@
 			path = LoginViewStoryTests;
 			sourceTree = "<group>";
 		};
+		5F4818931FAC7A53008AD021 /* StoryA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = StoryA;
+			sourceTree = "<group>";
+		};
+		5F4818941FAC7A5E008AD021 /* StoryB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = StoryB;
+			sourceTree = "<group>";
+		};
 		5FB4F8DD1FAB3C4E005674A2 /* VIPERTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,10 +208,12 @@
 		5FD7D1B91FAB36FE0004286E /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				5F4818941FAC7A5E008AD021 /* StoryB */,
+				5F4818931FAC7A53008AD021 /* StoryA */,
 				5F4818401FAC568D008AD021 /* LoginViewStory */,
 				5FD7D1BD1FAB36FE0004286E /* AppDelegate.h */,
 				5FD7D1BE1FAB36FE0004286E /* AppDelegate.m */,
-				5F4818621FAC6319008AD021 /* RootViewControllerLoginViewSDKProtocol.h */,
+				5F4818621FAC6319008AD021 /* LoginViewStoryWrapperProtocol.h */,
 				5F4818631FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.h */,
 				5F4818641FAC654A008AD021 /* RootViewControllerLoginViewSDKWrapper.m */,
 				5FD7D1EE1FAB373C0004286E /* RootViewController.h */,

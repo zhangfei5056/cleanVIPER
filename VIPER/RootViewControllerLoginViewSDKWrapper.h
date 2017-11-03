@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RootViewControllerLoginViewSDKProtocol.h"
+#import "LoginViewStoryWrapperProtocol.h"
 
-@interface RootViewControllerLoginViewSDKWrapper : NSObject <RootViewControllerLoginViewSDKProtocol>
+@interface RootViewControllerLoginViewSDKWrapper : NSObject <LoginViewStoryWrapperProtocol>
 @end

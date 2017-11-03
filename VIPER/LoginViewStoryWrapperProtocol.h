@@ -1,5 +1,5 @@
 //
-//  RootViewControllerLoginViewSDKProtocol.h
+//  LoginViewStoryWrapperProtocol.h
 //  VIPER
 //
 //  Created by Cao, Yuan (Agoda) on 11/3/17.
@@ -8,6 +8,6 @@
 
 #import <UIkit/UIkit.h>
 
-@protocol RootViewControllerLoginViewSDKProtocol <NSObject>
+@protocol LoginViewStoryWrapperProtocol <NSObject>
 - (void)addLoginViewToRootViewController:(UIViewController *)rootVC;
 @end

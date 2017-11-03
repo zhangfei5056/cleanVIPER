@@ -9,7 +9,7 @@
 #import "RootViewController.h"
 #import "RootViewControllerLoginViewSDKWrapper.h"
 @interface RootViewController ()
-@property (nonatomic, strong) id <RootViewControllerLoginViewSDKProtocol> delegate;
+@property (nonatomic, strong) id <LoginViewStoryWrapperProtocol> delegate;
 @end
 
 @implementation RootViewController
