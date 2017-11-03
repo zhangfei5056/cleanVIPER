@@ -7,11 +7,12 @@
 //
 
 #import "RootViewControllerLoginViewSDKWrapper.h"
-#import "LoginViewSDK.h"
 @implementation RootViewControllerLoginViewSDKWrapper
 
 - (void)addLoginViewToRootViewController:(UIViewController *)rootVC {
-    [rootVC.view addSubview:[LoginViewSDK loginView]];
+    Class LoginViewSDK = NSClassFromString(@"LoginViewSDK");
+    UIView *view = [LoginViewSDK performSelector:NSSelectorFromString(@"loginView")];
+    [rootVC.view addSubview:view];
 }
 
 
